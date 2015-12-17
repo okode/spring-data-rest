@@ -1,0 +1,52 @@
+[
+    {
+        "_class": "com.okode.crm.model.Invoice",
+        "amount": 150.0,
+        "customer": "Apple"
+    },
+    {
+        "_class": "com.okode.crm.model.Invoice",
+        "amount": 120.0,
+        "customer": "Microsoft"
+    },
+    {
+        "_class": "com.okode.crm.model.Invoice",
+        "amount": 130.0,
+        "customer": "Google"
+    },
+    {
+        "_class": "com.okode.crm.model.Invoice",
+        "amount": 200.0,
+        "customer": "Oracle"
+    },
+    {
+        "_class": "com.okode.crm.model.Invoice",
+        "amount": 170.0,
+        "customer": "Cisco"
+    },
+    {
+        "_class": "com.okode.crm.model.Invoice",
+        "amount": 80.0,
+        "customer": "Typesafe"
+    },
+    {
+        "_class": "com.okode.crm.model.Quote",
+        "description": "This is a description for quote 01",
+        "customer": "Typesafe"
+    },
+    {
+        "_class": "com.okode.crm.model.Quote",
+        "description": "This is a description for quote 01",
+        "customer": "Microsoft"
+    },
+    {
+        "_class": "com.okode.crm.model.Quote",
+        "description": "This is a description for quote 01",
+        "customer": "Microsoft"
+    },
+    {
+        "_class": "com.okode.crm.model.Quote",
+        "description": "This is a description for quote 01",
+        "customer": "Oracle"
+    }
+]

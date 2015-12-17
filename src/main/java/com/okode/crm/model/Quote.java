@@ -7,12 +7,16 @@ import com.fasterxml.jackson.annotation.JsonInclude.Include;
 
 @JsonInclude(Include.NON_NULL)
 @Document(collection = "crm")
-public class Invoice extends CRM {
-		
-	private float amount;
+public class Quote extends CRM {
+
+	private String description;
 	
-	public float getAmount() {
-		return amount;
+	public String getDescription() {
+		return description;
+	}
+	
+	public void setDescription(String description) {
+		this.description = description;
 	}
 	
 }

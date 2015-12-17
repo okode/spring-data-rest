@@ -46,3 +46,8 @@ Testing
     http://localhost:8080:> follow invoices
     http://localhost:8080:> list
     http://localhost:8080:> get
+    http://localhost:8080:> up
+    http://localhost:8080:> follow quotes
+    http://localhost:8080:> list
+    http://localhost:8080:> get
+    

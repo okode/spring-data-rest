@@ -1,8 +1,0 @@
-[
-{ "customer": "Apple", "amount": 150.0 },
-{ "customer": "Microsoft", "amount": 120.0 },
-{ "customer": "Google", "amount": 130.0 },
-{ "customer": "Oracle", "amount": 200.0 },
-{ "customer": "Cisco", "amount": 170.0 },
-{ "customer": "Typesafe", "amount": 80.0 }
-]
