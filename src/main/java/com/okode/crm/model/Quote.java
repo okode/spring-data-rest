@@ -7,7 +7,7 @@ import com.fasterxml.jackson.annotation.JsonInclude.Include;
 
 @JsonInclude(Include.NON_NULL)
 @Document(collection = "crm")
-public class Quote extends CRM {
+public class Quote extends Form {
 
 	private String description;
 	

@@ -7,7 +7,7 @@ import com.fasterxml.jackson.annotation.JsonInclude.Include;
 
 @JsonInclude(Include.NON_NULL)
 @Document(collection = "crm")
-public class Invoice extends CRM {
+public class Invoice extends Form {
 		
 	private float amount;
 	
