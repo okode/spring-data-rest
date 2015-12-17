@@ -8,7 +8,7 @@ import com.fasterxml.jackson.annotation.JsonInclude.Include;
 
 @JsonInclude(Include.NON_NULL)
 @Document(collection = "form")
-public class Form {
+public abstract class Form {
 
 	@Id
 	private String id;

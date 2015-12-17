@@ -1,12 +1,12 @@
 package com.okode.crm.model;
 
-import org.springframework.data.mongodb.core.mapping.Document;
+import org.springframework.data.annotation.TypeAlias;
 
 import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.annotation.JsonInclude.Include;
 
 @JsonInclude(Include.NON_NULL)
-@Document(collection = "form")
+@TypeAlias("quote")
 public class Quote extends Form {
 
 	private String description;
